@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol, menu {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;  
+    color: currentColor;
+}
+
+.top-page {
+    background-color: #FF6900;
+}
+
+.topitems {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    margin: auto;
+}
+
+.white-text {
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.booleanlogo {
+    width: 180px;
+    
+}
+
+.container {
+    background-color: white;
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(100% / 3);
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+
+.discount {
+    background-color: red;
+    padding: 5px;
+    color: white;
+}
+
+.greenflag {
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+.card > .label {
+    position: absolute;
+    bottom: 120px;
+    left: 10px;
+}
+
+.card > .heart{
+   position: absolute;
+   top: 30px;
+   right: 10px;
+}
+
+.heart {
+    font-size: 40px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.marca {
+    font-size: 15px;
+}
+
+.item {
+    font-weight: bold;
+}
+
+.price {
+    color: red;
+}
+
+.oldprice {
+    text-decoration: line-through;
+    font-size: 13px;
+}
+
+.bottom-side {
+    margin-top: 30px;
+    width: 100%;
+    background-color: #1A1A1A;
+    padding: 30px;
+    
+}
+
+.company {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.informations {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
